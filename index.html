@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- 
+    adapts to different devices 
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <title>ArtBloc</title>
+
+  <!-- 
+    browser icon
+  -->
+  <link rel="icon" href="./assets/images/nftgod.png" type="image/png">
+
+  <!-- 
+    external css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    Poppins and Jost font 
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@600;900&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="68" height="48" alt="Logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <p class="navbar-title">Menu</p>
+
+          <!-- for responsive navbar -->
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-circle-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="browse.html" class="navbar-link">Browse</a>
+          </li>
+
+          <li>
+            <a href="about.html" class="navbar-link">About the design</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!-- for responsive navbar -->
+      <button class="menu-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <a href="#" class="btn" aria-labelledby="wallet">
+        <ion-icon name="wallet-outline"></ion-icon>
+
+        <span id="wallet">Wallet Connect</span>
+      </a>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+
+      <!-- 
+        LANDING
+      -->
+
+      <section class="landing" id="home">
+
+        <div class="container">
+
+          <p class="section-subtitle">Web Abi</p>
+
+          <h2 class="h1 landing-title">Discover, collect, and trade exceptional NFT art</h2>
+
+          <p class="landing-text">
+            Explore on the world's best & largest NFT marketplace
+          </p>
+
+          <div class="btn-group">
+
+            <button class="btn">
+              <ion-icon name="rocket-outline" aria-hidden="true"></ion-icon>
+
+              <span>Browse</span>
+            </button>
+
+            <button class="btn">
+              <ion-icon name="create-outline" aria-hidden="true"></ion-icon>
+
+              <span>Create</span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- 
+        COLLECTION
+      -->
+
+      <section class="section collection" id="collection">
+        <div class="container">
+
+          <p class="section-subtitle">Most Popular</p>
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Popular Collections</h2>
+
+            <a href="#" class="btn-link">
+              <span>View All</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <p style="text-align: center;"> /* this is is a modal image (click it) */ </p><br>
+
+          <ul class="grid-list">
+
+            <li>
+              <a class="card collection-card">
+
+                <figure class="card-banner">
+                  <img id="myImg" src="./assets/images/nft.jpg" width="600" height="600" loading="lazy"
+                    alt="Bad Deck" class="img-cover">
+
+                  <div id="myModal" class="modal">
+
+                  <span class="close">&times;</span>
+
+                  <img class="modal-content" id="img01">
+
+                  <div id="caption">Owned by <b>r3n13r</b></div>
+                </figure>
+
+                <h3 class="h3 card-title">Bad Deck</h3>
+
+                <span class="card-text">ERC-729</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a class="card collection-card">
+
+                <figure class="card-banner">
+                  <img id="myImg2" src="./assets/images/nft2.jpg" width="600" height="600" loading="lazy"
+                    alt="Digital Arts" class="img-cover">
+     
+                    <div id="myModal" class="modal">
+
+                    <span class="close">&times;</span>
+    
+                    <img class="modal-content" id="img01">
+    
+                    <div id="caption">Owned by <b>r3n13r</b></div>
+                </figure>
+
+                <h3 class="h3 card-title">Small Deck</h3>
+
+                <span class="card-text">ERC-522</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a class="card collection-card">
+
+                <figure class="card-banner">
+                  <img id="myImg3" src="./assets/images/nft3.jpg" width="600" height="450" loading="lazy" alt="Sports"
+                    class="img-cover">
+
+                    <div id="myModal" class="modal">
+
+                    <span class="close">&times;</span>
+      
+                    <img class="modal-content" id="img01">
+      
+                    <div id="caption">Owned by <b>r3n13r</b></div>
+                </figure>
+
+                <h3 class="h3 card-title">Double Deck</h3>
+
+                <span class="card-text">ERC-495</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a class="card collection-card">
+
+                <figure class="card-banner">
+                  <img id="myImg4" src="./assets/images/nft4.jpg" width="600" height="450" loading="lazy"
+                    alt="Photography" class="img-cover">
+
+                    <div id="myModal" class="modal">
+
+                    <span class="close">&times;</span>
+        
+                    <img class="modal-content" id="img01">
+        
+                    <div id="caption">Owned by <b>r3n13r</b></div>
+                </figure>
+
+                <h3 class="h3 card-title">Grandpa Deck</h3>
+
+                <span class="card-text">ERC-873</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a class="card collection-card">
+
+                <figure class="card-banner">
+                  <img id="myImg5" src="./assets/images/feet-1.png" width="600" height="450" loading="lazy"
+                    alt="Collectibles" class="img-cover">
+
+                    <div id="myModal" class="modal">
+
+                    <span class="close">&times;</span>
+        
+                    <img class="modal-content" id="img01">
+        
+                    <div id="caption">Owned by <b>r3n13r</b></div>
+                </figure>
+
+                <h3 class="h3 card-title">Mogged Feet</h3>
+
+                <span class="card-text">ERC-972</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a class="card collection-card">
+
+                <figure class="card-banner">
+                  <img id="myImg6" src="./assets/images/feet-2.png" width="600" height="450" loading="lazy"
+                    alt="Trading Cards" class="img-cover">
+
+                    <div id="myModal" class="modal">
+
+                    <span class="close">&times;</span>
+        
+                    <img class="modal-content" id="img01">
+        
+                    <div id="caption">Owned by <b>r3n13r</b></div>
+                </figure>
+
+                <h3 class="h3 card-title">The Abuser</h3>
+
+                <span class="card-text">ERC-397</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a class="card collection-card">
+
+                <figure class="card-banner">
+                  <img id="myImg7" src="./assets/images/feet-3.png" width="600" height="450" loading="lazy"
+                    alt="Walking On Air" class="img-cover">
+
+                    <div id="myModal" class="modal">
+
+                    <span class="close">&times;</span>
+        
+                    <img class="modal-content" id="img01">
+        
+                    <div id="caption">Owned by <b>r3n13r</b></div>
+                </figure>
+
+                <h3 class="h3 card-title">Idle Feet</h3>
+
+                <span class="card-text">ERC-403</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a class="card collection-card">
+
+                <figure class="card-banner">
+                  <img id="myImg8" src="./assets/images/feet-4.png" width="600" height="450" loading="lazy"
+                    alt="Domain Names" class="img-cover">
+
+                    <div id="myModal" class="modal">
+
+                    <span class="close">&times;</span>
+        
+                    <img class="modal-content" id="img01">
+        
+                    <div id="caption">Owned by <b>r3n13r</b></div>
+                </figure>
+
+                <h3 class="h3 card-title">Happy Feet</h3>
+
+                <span class="card-text">ERC-687</span>
+
+              </a>
+            </li>
+
+            <li>
+              <a class="card collection-card">
+
+                <figure class="card-banner">
+                  <img id="myImg9" src="./assets/images/Final Render.gif" width="600" height="450" loading="lazy"
+                    alt="Domain Names" class="img-cover">
+
+                    <div id="myModal" class="modal">
+
+                    <span class="close">&times;</span>
+        
+                    <img class="modal-content" id="img01">
+        
+                    <div id="caption">Owned by <b>r3n13r</b></div>
+                </figure>
+
+                <h3 class="h3 card-title">Happy Feet</h3>
+
+                <span class="card-text">ERC-687</span>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        INSTRUCTION
+      -->
+
+      <section class="section instruction" id="instruction">
+        <div class="container">
+
+          <p class="section-subtitle">How It Works</p>
+
+          <h2 class="h2 section-title">Create and sell your NFTs</h2>
+
+          <ul class="grid-list">
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="wallet-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">Set up your wallet</h3>
+
+              <p class="instruction-text">
+                Once you’ve set up your wallet of choice, connect it to OpenSea by clicking the NFT Marketplace in the
+                top right corner.
+                Learn about the wallets we support.
+              </p>
+
+            </li>
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="grid-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">Create your collection</h3>
+
+              <p class="instruction-text">
+                Click Create and set up your collection. Add social links, a description, profile & banner images, and
+                set a secondary
+                sales fee.
+              </p>
+
+            </li>
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="file-tray-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">Add your NFTs</h3>
+
+              <p class="instruction-text">
+                Upload your work (image, video, audio, or 3D art), add a title and description, and customize your NFTs
+                with properties,
+                stats, and unlockable content.
+              </p>
+
+            </li>
+
+            <li class="instruction-item">
+
+              <div class="instruction-icon">
+                <ion-icon name="bag-handle-outline"></ion-icon>
+              </div>
+
+              <h3 class="instruction-title">List them for sale</h3>
+
+              <p class="instruction-text">
+                Choose between auctions, fixed-price listings, and declining-price listings. You choose how you want to
+                sell your NFTs!
+              </p>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- 
+    FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-socials">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="68" height="48" alt="Logo">
+          </a>
+
+          <p class="footer-text">
+            Stay connected by following my socials and joining my Discord server for the latest updates!
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/renierbong.remorin/" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/_akitahachiko_/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.pinterest.ph/renierbong/" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://discord.gg/S7VM44V8T6" class="social-link">
+                <ion-icon name="logo-discord"></ion-icon>
+                <ion-icon name="logo-discord"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">All NFTs</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">How It Works</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Create</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Explore</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy & Terms</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Community</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Help Center</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Partners</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Suggestions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Newsletter</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom"></div>
+
+    </div>
+  </footer>
+
+
+  <!-- 
+    BACK TO TOP
+  -->
+  <!-- display the button after scrolling to a certain point. -->
+  <a href="#top" class="back-to-top" aria-label="Back to Top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+  <!-- 
+    custom js link
+  -->
+  <script src="./assets/js/skript.js"></script>
+
+  <!-- 
+    ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
